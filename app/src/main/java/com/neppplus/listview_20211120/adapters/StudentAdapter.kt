@@ -35,9 +35,13 @@ class StudentAdapter(
 
 //        뿌려질 UI 가져오자
         val txtStudentName = row.findViewById<TextView>(R.id.txtStudentName)
+        val txtAge = row.findViewById<TextView>(R.id.txtAge)
+        val txtAddress = row.findViewById<TextView>(R.id.txtAddress)
 
         txtStudentName.text = data.name
+        txtAge.text ="${data.birthYear} 년생"
 
+        txtAddress.text = data.address
 
         return row
 

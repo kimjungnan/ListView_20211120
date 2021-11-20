@@ -18,6 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
+        android:id="@+id/txtAge"
         android:text="(??)세"/>
 
     <TextView
@@ -26,6 +27,7 @@
         android:layout_weight="1" />
 
     <TextView
+        android:id="@+id/txtAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="서울시 동대문구" />
